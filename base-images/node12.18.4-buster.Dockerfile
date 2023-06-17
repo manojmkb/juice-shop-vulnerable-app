@@ -1,7 +1,7 @@
 # Our internally managed images for the Juice Shop devs to build upon
 # This one is for Node apps
 
-FROM node:12.18.4-buster
+FROM node:12.22-buster
 
 RUN apt-get -y update && apt-get -y install ca-certificates apt-transport-https
 
